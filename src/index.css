@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #f6f5f7;
+  background: linear-gradient(to right, #1C1C1C 50%, #FFFFFF 50%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +51,7 @@ p {
 .card {
   flex: 1 0 auto; /* Allows cards to grow and shrink but maintain their base size */
   max-width: 300px; /* Set a maximum width for each card */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(248, 246, 246, 0.959);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -73,7 +73,7 @@ p {
 }
 
 .btn-primary {
-  background-color: #FF4B2B;
+  background-color: #e5dcda;
   border: none;
   color: #FFFFFF;
   padding: 10px 20px;
@@ -100,8 +100,8 @@ a {
 
 button {
   border-radius: 20px;
-  border: 1px solid #FF4B2B;
-  background-color: #FF4B2B;
+  border: 1px solid #111;
+  background-color: #3A6073;
   color: #FFFFFF;
   font-size: 12px;
   font-weight: bold;
@@ -218,8 +218,8 @@ input {
 
 .overlay {
   background: #FF416C;
-  background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-  background: linear-gradient(to right, #FF4B2B, #FF416C);
+  background: -webkit-linear-gradient(to right, hsl(9, 100%, 58%), #FF416C);
+  background: linear-gradient(to right, #3A6073, #16222A);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
